@@ -1,0 +1,21 @@
+package oop;
+import java.util.Scanner;
+
+public class task2 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input number:");
+		int a = scanner.nextInt();
+		
+		
+		System.out.print("Area:");
+		System.out.print(a * a);
+		
+		System.out.print("Perimeter:");
+		System.out.print(a * 4);
+		
+		System.out.print("Diagonal:");
+		System.out.print(Math.sqrt(2*a*a));
+		
+	}
+}
