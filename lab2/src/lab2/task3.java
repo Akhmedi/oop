@@ -31,6 +31,10 @@ class Time{
 		setTime(hour,minute,second);
 	}
 	
+	public Time() {
+		
+	}
+	
 	public void setTime(int hour, int minute,int second) {
 		if(hour < 0 || hour > 23) {
 			throw new IllegalArgumentException("Invalid hour: " + hour);
